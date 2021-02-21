@@ -80,10 +80,10 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.listBox5 = new System.Windows.Forms.ListBox();
             this.richTextBox6 = new System.Windows.Forms.RichTextBox();
             this.button11 = new System.Windows.Forms.Button();
             this.richTextBox5 = new System.Windows.Forms.RichTextBox();
-            this.listBox5 = new System.Windows.Forms.ListBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -150,7 +150,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(597, 148);
+            this.button1.Location = new System.Drawing.Point(597, 155);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(115, 59);
@@ -696,6 +696,15 @@
             this.tabPage6.Text = "Разбираем ответ FSSP";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
+            // listBox5
+            // 
+            this.listBox5.FormattingEnabled = true;
+            this.listBox5.ItemHeight = 16;
+            this.listBox5.Location = new System.Drawing.Point(1147, 659);
+            this.listBox5.Name = "listBox5";
+            this.listBox5.Size = new System.Drawing.Size(135, 164);
+            this.listBox5.TabIndex = 3;
+            // 
             // richTextBox6
             // 
             this.richTextBox6.Location = new System.Drawing.Point(32, 659);
@@ -721,15 +730,6 @@
             this.richTextBox5.Size = new System.Drawing.Size(1250, 582);
             this.richTextBox5.TabIndex = 0;
             this.richTextBox5.Text = resources.GetString("richTextBox5.Text");
-            // 
-            // listBox5
-            // 
-            this.listBox5.FormattingEnabled = true;
-            this.listBox5.ItemHeight = 16;
-            this.listBox5.Location = new System.Drawing.Point(1147, 659);
-            this.listBox5.Name = "listBox5";
-            this.listBox5.Size = new System.Drawing.Size(135, 164);
-            this.listBox5.TabIndex = 3;
             // 
             // Form1
             // 
