@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox5.Text" xml:space="preserve">
+    <value>{
+    "status": "success",
+    "code": 0,
+    "exception": "",
+    "response": {
+        "status": 0,
+        "task_start": "2020-11-28 21:24:56",
+        "task_end": "2020-11-28 21:24:57",
+        "result": [
+            {
+                "status": 0,
+                "query": {
+                    "type": 1,
+                    "params": {
+                        "firstname": "ДМИТРИЙ",
+                        "lastname": "ПОКРОВСКИЙ",
+                        "secondname": "СЕРГЕЕВИЧ",
+                        "region": "77",
+                        "birthdate": "17.03.1975"
+                    }
+                },
+                "result": [
+                    {
+                        "name": "ПОКРОВСКИЙ ДМИТРИЙ СЕРГЕЕВИЧ 17.03.1975 РОССИЯ, МОСКВА Г",
+                        "exe_production": "218371/19/77012-ИП от 02.08.2019",
+                        "details": "Акт органа, осуществляющего контрольные функции от 18.07.2019 № 2113 ИНСПЕКЦИЯ ФЕДЕРАЛЬНОЙ НАЛОГОВОЙ СЛУЖБЫ №35 ПО Г. МОСКВЕ",
+                        "subject": "Взыскание налогов и сборов, включая пени",
+                        "department": "ОСП по Зеленоградскому АО 124482, Россия, г. Москва, , г. Зеленоград, , ул. Юности, д. 11, , ",
+                        "bailiff": "МАНИН Р. В. +7(499)558-15-38&lt;br&gt;+7(499)558-15-38&lt;br&gt;",
+                        "ip_end": "2019-12-20, 46, 1, 3"
+                    },
+                    {
+                        "name": "ПОКРОВСКИЙ ДМИТРИЙ СЕРГЕЕВИЧ 17.03.1975 ГОР. МОСКВА",
+                        "exe_production": "431872/20/77012-ИП от 10.11.2020",
+                        "details": "Акт по делу об административном правонарушении от 11.08.2020 № АА 277884 ОМВД РОССИИ ПО РАЙОНАМ МАТУШКИНО И САВЕЛКИ Г. МОСКВЫ",
+                        "subject": "Иной штраф ОВД: 500 руб.",
+                        "department": "ОСП по Зеленоградскому АО 124482, Россия, г. Москва, , г. Зеленоград, , ул. Юности, д. 11, , ",
+                        "bailiff": "СЕРГИЕНКО Н. А. +7(499)558-15-38&lt;br&gt;+7(499)558-15-38&lt;br&gt;",
+                        "ip_end": ""
+                    },
+                    {
+                        "name": "ПОКРОВСКИЙ ДМИТРИЙ СЕРГЕЕВИЧ 17.03.1975 ГОР. МОСКВА",
+                        "exe_production": "256561/20/77012-ИП от 31.08.2020",
+                        "details": "Акт органа, осуществляющего контрольные функции от 28.08.2020 № 1771 ИНСПЕКЦИЯ ФЕДЕРАЛЬНОЙ НАЛОГОВОЙ СЛУЖБЫ №35 ПО Г. МОСКВЕ",
+                        "subject": "Взыскание налогов и сборов, включая пени: 36381.44 руб.",
+                        "department": "ОСП по Зеленоградскому АО 124482, Россия, г. Москва, , г. Зеленоград, , ул. Юности, д. 11, , ",
+                        "bailiff": "МАНИН Р. В. +7(499)558-15-38&lt;br&gt;+7(499)558-15-38&lt;br&gt;",
+                        "ip_end": ""
+                    },
+                    {
+                        "name": "ПОКРОВСКИЙ ДМИТРИЙ СЕРГЕЕВИЧ 17.03.1975 ГОР. МОСКВА",
+                        "exe_production": "261136/20/77012-ИП от 07.09.2020",
+                        "details": "Акт по делу об административном правонарушении от 13.08.2020 № Б/Н Постановление о взыскании исполнительского сбора СУДЕБНЫЙ УЧАСТОК № 1 РАЙОНА МАТУШКИНО",
+                        "subject": "Задолженность по ИД: 793.33 руб. Исполнительский сбор: 1000 руб.",
+                        "department": "ОСП по Зеленоградскому АО 124482, Россия, г. Москва, , г. Зеленоград, , ул. Юности, д. 11, , ",
+                        "bailiff": "СЕРГИЕНКО Н. А. +7(499)558-15-38&lt;br&gt;+7(499)558-15-38&lt;br&gt;",
+                        "ip_end": ""
+                    },
+                    {
+                        "name": "ПОКРОВСКИЙ ДМИТРИЙ СЕРГЕЕВИЧ 17.03.1975 ГОР. МОСКВА",
+                        "exe_production": "390887/20/77012-ИП от 26.10.2020",
+                        "details": "Акт по делу об административном правонарушении от 17.06.2020 № 282684 ОМВД РОССИИ ПО РАЙОНАМ МАТУШКИНО И САВЕЛКИ Г. МОСКВЫ",
+                        "subject": "Иной штраф ОВД: 500 руб.",
+                        "department": "ОСП по Зеленоградскому АО 124482, Россия, г. Москва, , г. Зеленоград, , ул. Юности, д. 11, , ",
+                        "bailiff": "СЕРГИЕНКО Н. А. +7(499)558-15-38&lt;br&gt;+7(499)558-15-38&lt;br&gt;",
+                        "ip_end": ""
+                    },
+                    {
+                        "name": "ПОКРОВСКИЙ ДМИТРИЙ СЕРГЕЕВИЧ 17.03.1975 ГОР. МОСКВА",
+                        "exe_production": "16164/15/77044-ИП от 15.01.2010",
+                        "details": "Исполнительный лист от 14.12.2009 № ВС 005005925 ЗЕЛЕНОГРАДСКИЙ РАЙОННЫЙ СУД",
+                        "subject": "Уголовный штраф, как дополнительный вид наказания (иной администратор дохода с кодом главы по КБК кроме 322): 6420.82 руб.",
+                        "department": "СМО по ИДРЗ 123308, г. Москва, ул. Маршала Жукова, д. 35, кор. 1",
+                        "bailiff": "ПОГОСЯН И. Р. +7(499)558-19-05&lt;br&gt;+7(499)558-19-05&lt;br&gt;",
+                        "ip_end": ""
+                    }
+                ]
+            },
+            {
+                "status": 0,
+                "query": {
+                    "type": 1,
+                    "params": {
+                        "firstname": "СЕРГЕЙ",
+                        "lastname": "ЧЕШКОВ",
+                        "secondname": "ВЛАДИМИРОВИЧ",
+                        "region": "77",
+                        "birthdate": "01.05.1978"
+                    }
+                },
+                "result": [
+                    {
+                        "name": "ЧЕШКОВ СЕРГЕЙ ВЛАДИМИРОВИЧ 01.05.1978 МОСКВА",
+                        "exe_production": "1951689/20/77045-ИП от 14.02.2020",
+                        "details": "Акт по делу об административном правонарушении от 13.11.2019 № 18810177191113792029 УГИБДД ГУ МВД РОССИИ ПО Г. МОСКВЕ",
+                        "subject": "Штраф ГИБДД: 500 руб.",
+                        "department": "МОСП по ВАШ №1 129347, Россия, г. Москва, , , , Югорский проезд, д. 22, стр. 1, ",
+                        "bailiff": "ЛАТЫШЕВА С. Е. +7(499)558-15-21&lt;br&gt;+7(499)558-15-21&lt;br&gt;",
+                        "ip_end": ""
+                    },
+                    {
+                        "name": "ЧЕШКОВ СЕРГЕЙ ВЛАДИМИРОВИЧ 01.05.1978 МОСКВА",
+                        "exe_production": "3206081/20/77045-ИП от 15.07.2020",
+                        "details": "Акт по делу об административном правонарушении от 19.04.2020 № 18810150200419093863 ЦЕНТР ВИДЕОФИКСАЦИИ ГИБДД ГУ МВД РОССИИ ПО МОСКОВСКОЙ ОБЛАСТИ",
+                        "subject": "Штраф ГИБДД: 500 руб.",
+                        "department": "МОСП по ВАШ №1 129347, Россия, г. Москва, , , , Югорский проезд, д. 22, стр. 1, ",
+                        "bailiff": "ЛАТЫШЕВА С. Е. +7(499)558-15-21&lt;br&gt;+7(499)558-15-21&lt;br&gt;",
+                        "ip_end": ""
+                    },
+                    {
+                        "name": "ЧЕШКОВ СЕРГЕЙ ВЛАДИМИРОВИЧ 01.05.1978 МОСКВА, МОСКВА",
+                        "exe_production": "43638/20/77057-ИП от 06.03.2020",
+                        "details": "Исполнительный лист от 02.03.2020 № ФС № 029903192 ХОРОШЕВСКИЙ РАЙОННЫЙ СУД",
+                        "subject": "Задолженность по ИД: 107815.96 руб.",
+                        "department": "ОСП по Северо-Западному АО 123308, Россия, г. Москва, , , , Маршала Жукова пр-кт, д. 35, корп. 1, ",
+                        "bailiff": "ПЛИЕВ М. Л. +7(499)583-04-91&lt;br&gt;+7(499)583-04-91&lt;br&gt;",
+                        "ip_end": ""
+                    },
+                    {
+                        "name": "ЧЕШКОВ СЕРГЕЙ ВЛАДИМИРОВИЧ 01.05.1978 Г. МОСКВА",
+                        "exe_production": "59946/20/77057-ИП от 24.03.2020",
+                        "details": "Судебный приказ от 05.12.2019 № 2-904/2019 СУДЕБНЫЙ УЧАСТОК № 156 РАЙОНА ХОРОШЁВО-МНЁВНИКИ",
+                        "subject": "Задолженность по кредитным платежам (кроме ипотеки): 52230.55 руб.",
+                        "department": "ОСП по Северо-Западному АО 123308, Россия, г. Москва, , , , Маршала Жукова пр-кт, д. 35, корп. 1, ",
+                        "bailiff": "ПОЛИКАРПОВА А. С. +7(499)583-04-91&lt;br&gt;+7(499)583-04-91&lt;br&gt;",
+                        "ip_end": ""
+                    }
+                ]
+            },
+            {
+                "status": 0,
+                "query": {
+                    "type": 1,
+                    "params": {
+                        "firstname": "АНДРЕЙ",
+                        "lastname": "ДУШАКОВ",
+                        "secondname": "ВЛАДИМИРОВИЧ",
+                        "region": "77",
+                        "birthdate": "24.09.1970"
+                    }
+                },
+                "result": []
+            },
+            {
+                "status": 0,
+                "query": {
+                    "type": 1,
+                    "params": {
+                        "firstname": "ВЛАДИМИР",
+                        "lastname": "БРИЛЛИАНТОВ",
+                        "secondname": "АЛЕКСЕЕВИЧ",
+                        "region": "77",
+                        "birthdate": "15.04.1969"
+                    }
+                },
+                "result": [
+                    {
+                        "name": "БРИЛЛИАНТОВ ВЛАДИМИР АЛЕКСЕЕВИЧ 15.04.1969 Г.СПАС-ДЕМЕНСК, КАЛУЖСКОЙ ОБЛ",
+                        "exe_production": "8739/15/77036-ИП от 06.05.2015",
+                        "details": "Исполнительный лист от 24.12.2014 № ВС№051879167 КОПТЕВСКИЙ РАЙОННЫЙ СУД",
+                        "subject": "Задолженность по кредитным платежам (кроме ипотеки)",
+                        "department": "Коптевское ОСП 127083, Россия, , , г. Москва, , ул. Мишина, д. 56, корп. 8, ",
+                        "bailiff": "ШАТАЛОВ Д. А. +7(499)558-17-59&lt;br&gt;+7(499)558-32-78&lt;br&gt;",
+                        "ip_end": "2017-12-27, 46, 1, 3"
+                    },
+                    {
+                        "name": "БРИЛЛИАНТОВ ВЛАДИМИР АЛЕКСЕЕВИЧ 15.04.1969 КАЛУЖСКАЯ ОБЛ., Г. СПАС-ДЕМЕНСК",
+                        "exe_production": "26161/20/77036-ИП от 18.06.2020 61711/19/77036-СД",
+                        "details": "Судебный приказ от 23.04.2018 № 2-148/18 СУДЕБНЫЙ УЧАСТОК № 335 ТИМИРЯЗЕВСКОГО РАЙОНА",
+                        "subject": "Задолженность по кредитным платежам (кроме ипотеки): 152892.73 руб.",
+                        "department": "Коптевское ОСП 127083, Россия, , , г. Москва, , ул. Мишина, д. 56, корп. 8, ",
+                        "bailiff": "ПЕГОВА Е. В. +7(499)558-32-78&lt;br&gt;+7(499)558-32-78&lt;br&gt;",
+                        "ip_end": ""
+                    },
+                    {
+                        "name": "БРИЛЛИАНТОВ ВЛАДИМИР АЛЕКСЕЕВИЧ 15.04.1969 РОССИЯ, КАЛУЖСКАЯ ОБЛ., СПАС-ДЕМЕНСКИЙ Р-Н",
+                        "exe_production": "13926/17/77036-ИП от 25.08.2017",
+                        "details": "Исполнительный лист от 11.03.2015 № ВС № 064628899 СУДЕБНЫЙ УЧАСТОК № 334 КОПТЕВСКОГО СУДЕБНОГО РАЙОНА Г. МОСКВЫ",
+                        "subject": "Задолженность",
+                        "department": "Коптевское ОСП 127083, Россия, , , г. Москва, , ул. Мишина, д. 56, корп. 8, ",
+                        "bailiff": "ФИЛАТОВА Ю. В. +7(499)558-32-78&lt;br&gt;+7(499)558-32-78&lt;br&gt;",
+                        "ip_end": "2018-05-24, 46, 1, 3"
+                    },
+                    {
+                        "name": "БРИЛЛИАНТОВ ВЛАДИМИР АЛЕКСЕЕВИЧ 15.04.1969 Г.СПАС-ДЕМЕНСК, КАЛУЖСКОЙ ОБЛ",
+                        "exe_production": "20280/17/77036-ИП от 27.10.2017",
+                        "details": "Постановление судебного пристава-исполнителя от 27.10.2017 № 77036/17/1028858 КОПТЕВСКИЙ ОСП УФССП ПО МОСКВЕ",
+                        "subject": "",
+                        "department": "Коптевское ОСП 127083, Россия, , , г. Москва, , ул. Мишина, д. 56, корп. 8, ",
+                        "bailiff": "АБДУЛАЕВА М. А. +7(499)558-32-78&lt;br&gt;+7(499)558-32-78&lt;br&gt;",
+                        "ip_end": "2018-04-28, 46, 1, 3"
+                    },
+                    {
+                        "name": "БРИЛЛИАНТОВ ВЛАДИМИР АЛЕКСЕЕВИЧ 15.04.1969 РОССИЯ, КАЛУЖСКАЯ ОБЛ., СПАС-ДЕМЕНСКИЙ Р-Н",
+                        "exe_production": "11360/18/77036-ИП от 06.06.2018",
+                        "details": "Судебный приказ от 23.04.2018 № 2-148/18 СУДЕБНЫЙ УЧАСТОК № 335 КОПТЕВСКОГО СУДЕБНОГО РАЙОНА Г. МОСКВЫ",
+                        "subject": "Задолженность по кредитным платежам (кроме ипотеки)",
+                        "department": "Коптевское ОСП 127083, Россия, , , г. Москва, , ул. Мишина, д. 56, корп. 8, ",
+                        "bailiff": "ШАТАЛОВ Д. А. +7(499)558-17-59&lt;br&gt;+7(499)558-32-78&lt;br&gt;",
+                        "ip_end": "2019-06-27, 46, 1, 3"
+                    },
+                    {
+                        "name": "БРИЛЛИАНТОВ ВЛАДИМИР АЛЕКСЕЕВИЧ 15.04.1969 КАЛУЖСКАЯ ОБЛ., Г. СПАС-ДЕМЕНСК",
+                        "exe_production": "61711/19/77036-ИП от 11.07.2019 61711/19/77036-СД",
+                        "details": "Судебный приказ от 11.06.2019 № 2-224/19 СУДЕБНЫЙ УЧАСТОК №  334 КОПТЕВСКОГО СУДЕБНОГО РАЙОНА Г. МОСКВЫ",
+                        "subject": "Задолженность по кредитным платежам (кроме ипотеки): 56055.72 руб.",
+                        "department": "Коптевское ОСП 127083, Россия, , , г. Москва, , ул. Мишина, д. 56, корп. 8, ",
+                        "bailiff": "ПЕГОВА Е. В. +7(499)558-32-78&lt;br&gt;+7(499)558-32-78&lt;br&gt;",
+                        "ip_end": ""
+                    },
+                    {
+                        "name": "БРИЛЛИАНТОВ ВЛАДИМИР АЛЕКСЕЕВИЧ 15.04.1969 КАЛУЖСКАЯ ОБЛ., Г. СПАС-ДЕМЕНСК",
+                        "exe_production": "85336/19/77044-ИП от 04.06.2019",
+                        "details": "Исполнительный лист от 27.05.2019 № ВС073588391 СУДЕБНЫЙ УЧАСТОК №  335 КОПТЕВСКОГО СУДЕБНОГО РАЙОНА Г. МОСКВЫ",
+                        "subject": "Уголовный штраф, как основной вид наказания (иной администратор дохода с кодом главы по КБК кроме 322): 150000 руб.",
+                        "department": "СМО по ИДРЗ 123308, г. Москва, ул. Маршала Жукова, д. 35, кор. 1",
+                        "bailiff": "ИЛЮТИН В. В. +7(499)558-19-05&lt;br&gt;+7(499)558-19-05&lt;br&gt;",
+                        "ip_end": ""
+                    },
+                    {
+                        "name": "БРИЛЛИАНТОВ ВЛАДИМИР АЛЕКСЕЕВИЧ 15.04.1969 КАЛУЖСКАЯ ОБЛ, Г. СПАС ДЕМЕНСК",
+                        "exe_production": "3176971/19/77050-ИП от 24.06.2019",
+                        "details": "Акт по делу об административном правонарушении от 11.02.2019 № ААА1418944 Постановление о взыскании исполнительского сбора ГКУ \"ОРГАНИЗАТОР ПЕРЕВОЗОК\"",
+                        "subject": "Штраф иного органа: 1000 руб. Исполнительский сбор: 1000 руб.",
+                        "department": "МОСП по ВАШ №4 129347, Россиия, г. Москва, , , , Югорский проезд, д. 22, стр. 1, ",
+                        "bailiff": "ХАРЕБ Ю. Ю. +7(499)558-16-14&lt;br&gt;+7(499)558-16-14&lt;br&gt;",
+                        "ip_end": ""
+                    }
+                ]
+            }
+        ]
+    }
+}</value>
+  </data>
+</root>
